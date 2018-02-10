@@ -22,3 +22,41 @@ make: Nothing to be done for 'all'.
 18:06:44 **** Incremental Build of configuration Debug for project hello-world ****
 make all 
 make: Nothing to be done for 'all'.
+18:14:14 **** Clean-only build of configuration Debug for project Outputting Text ****
+make clean 
+rm -rf  ./src/outputting_text.o  ./src/outputting_text.d  "Outputting Text"
+ 
+18:14:14 **** Build of configuration Debug for project Outputting Text ****
+make all 
+Building file: ../src/outputting_text.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/outputting_text.d" -MT"src/outputting_text.o" -o "src/outputting_text.o" "../src/outputting_text.cpp"
+Finished building: ../src/outputting_text.cpp
+ 
+Building target: Outputting Text
+Invoking: GCC C++ Linker
+g++  -o "Outputting Text"  ./src/outputting_text.o   
+Finished building target: Outputting Text
+ 
+18:14:21 **** Incremental Build of configuration Debug for project Outputting Text ****
+make all 
+make: Nothing to be done for 'all'.
+18:15:06 **** Clean-only build of configuration Debug for project outputting-text ****
+make clean 
+rm -rf  ./src/outputting_text.o  ./src/outputting_text.d  "Outputting Text"
+ 
+18:15:06 **** Build of configuration Debug for project outputting-text ****
+make all 
+Building file: ../src/outputting_text.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/outputting_text.d" -MT"src/outputting_text.o" -o "src/outputting_text.o" "../src/outputting_text.cpp"
+Finished building: ../src/outputting_text.cpp
+ 
+Building target: outputting-text
+Invoking: GCC C++ Linker
+g++  -o "outputting-text"  ./src/outputting_text.o   
+Finished building target: outputting-text
+ 
+18:15:11 **** Incremental Build of configuration Debug for project outputting-text ****
+make all 
+make: Nothing to be done for 'all'.
