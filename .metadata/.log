@@ -1,0 +1,41 @@
+!SESSION 2018-02-10 17:49:39.299 -----------------------------------------------
+eclipse.buildId=4.7.2.M20171130-0510
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_PH
+Command-line arguments:  -data /home/billywilson/cpp-for-complete-beginners -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.oomph.setup.ui 1 0 2018-02-10 17:49:59.496
+!MESSAGE Setup tasks were performed during startup updating 158 preferences. See '/home/billywilson/eclipse/ide-latest-released/eclipse/configuration/org.eclipse.oomph.setup/setup.log' for details
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-02-10 17:52:57.792
+!MESSAGE Indexed 'hello-world' (1 sources, 104 headers) in 7.05 sec: 8,507 declarations; 14,474 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.ui 2 2 2018-02-10 17:53:21.056
+!MESSAGE Invalid preference category path: org.eclipse.php.ui.preferences.PHPToolsPreferencePage (bundle: org.eclipse.php.composer.ui, page: org.eclipse.php.composer.ui.preferences.composer)
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-02-10 17:57:39.544
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-02-10 17:57:39.545
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+!SESSION 2018-02-10 18:04:41.477 -----------------------------------------------
+eclipse.buildId=4.7.2.M20171130-0510
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_PH
+Command-line arguments:  -data file:/home/billywilson/cpp-for-complete-beginners/ -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.ui 2 0 2018-02-10 18:05:08.287
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-02-10 18:05:08.287
+!MESSAGE Cannot bind to an undefined command: plug-in='com.genuitec.eclipse.theming.ui', id='com.genuitec.myeclipse.help.darktheme.commandid'
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2018-02-10 18:05:13.013
+!MESSAGE A DevStyle Theme is being activated on this workspace; preparing colors and configuration
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2018-02-10 18:05:13.063
+!MESSAGE DevStyle has archived current color configurations to alternate preferences - will be restored when switching out of the DevStyle Theme
+
+!ENTRY org.eclipse.oomph.setup.ui 1 0 2018-02-10 18:05:27.927
+!MESSAGE Setup tasks were performed during startup updating 170 preferences. See '/home/billywilson/eclipse/ide-latest-released/eclipse/configuration/org.eclipse.oomph.setup/setup.log' for details
